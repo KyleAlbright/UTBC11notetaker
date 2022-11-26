@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 const PORT = process.env.port || 3001;
 
-const  notes  = require("./db/db.json");
+const { notes }   = require("./db/db.json");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -43,6 +43,15 @@ app.post("/api/notes", (req, res) => {
   req.body.id = generateUniqueId();
   const note = createNewNote(req.body, notes);
   res.json(note);
+});
+
+app.delete('/api/notes/:id', (req, res) => {
+  const { id } = req.params;
+
+  const deleteNote = notes.findIndex(note => note.id ==id);
+
+  notes.splice(deleteNote, 1);
+  return res.send();
 });
 
 //Get route for the homepage
