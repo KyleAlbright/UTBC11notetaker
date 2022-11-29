@@ -20,6 +20,7 @@ Learn more about my [mit](https://choosealicense.com/licenses/mit) license.
 In this challenge we where asked to make a note taker app to record and store notes. We where asked to use express.js on the back end while saving and retrieving data from a JSON file. We also had the challenge of connecting the front and back end together. As a bonus this week we where also asked to create the delete button functionality, a skill we where not taught in class. 
 
 Link to deployed website - https://powerful-oasis-96202.herokuapp.com/
+
 Link to GitHub - https://github.com/KyleAlbright/module11notetaker
 
 
@@ -45,6 +46,10 @@ You can test this application by adding your own user input. You can also add co
 
 
 
+![Screenshot (45)](https://user-images.githubusercontent.com/110487869/204674748-3ef56a12-fe4a-4713-8bf7-be0f15bcc344.png)
+
+
+![Screenshot (46)](https://user-images.githubusercontent.com/110487869/204674761-f5804632-4804-4405-affc-b06da9938af7.png)
 
 #### [Questions?](#table-of-contents)
 Please contact me using the following links.
