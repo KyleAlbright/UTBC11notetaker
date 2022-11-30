@@ -21,7 +21,7 @@ In this challenge we where asked to make a note taker app to record and store no
 
 Link to deployed website - https://powerful-oasis-96202.herokuapp.com/
 
-Link to GitHub - https://github.com/KyleAlbright/module11notetaker
+Link to GitHub - https://github.com/KyleAlbright/UTBC11notetaker
 
 
 
